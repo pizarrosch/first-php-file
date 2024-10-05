@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="styles/global.css" type="text/css" />
+	<link rel="stylesheet" href="styles/global.css" type="text/css"/>
 	<title>Document</title>
 </head>
 <body>
@@ -32,16 +32,16 @@
 			console.log('Hello, Zaur!');
 		}";
 		HEREDOC;
-
-//		echo '<br>';
-//		echo $string;
-//		echo '<br>';
-//		echo $string;
+		
+		//		echo '<br>';
+		//		echo $string;
+		//		echo '<br>';
+		//		echo $string;
 		echo '<br>';
 		$promoCode = 'SUMMER_SALE';
 		echo "Seasonal Offer! 🤑 Use \"{$promoCode}\" for an exclusive discount.";
 	?>
-	
+
 	<textarea><?php echo $heredoc; ?></textarea>
 </div>
 </body>
